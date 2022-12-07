@@ -1,0 +1,18 @@
+<section class="hero">
+    {{ if .Params.hero }}  
+    {{ range .Params.hero}}
+ <div class="hero-body">
+    <div class="title has-text-centered">
+        {{ .title }}
+    </div>
+
+    <div class="subtitle is-size-5 has-text-centered">
+        {{ .subtitle }}
+    </div>
+    <figure class="image">
+        <img src="{{ .image }}">
+      </figure>
+ </div>
+ {{end}}
+ {{end}}
+</section>
