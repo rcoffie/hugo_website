@@ -1,0 +1,17 @@
+<section class="hero is-info is-medium has-bg-img"
+{{ if ( .Params.Cover ) }} 
+style="background: url('{{ .Params.Cover | safeCSS }}');
+       background-position: center;
+       background-size: cover;"
+{{ end }}>
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <p class="title is-size-1 has-text-primary">
+                {{ .Params.Title }}
+            </p>
+            <p class="subtitle is-size-2">
+                {{ .Params.SubTitle }}
+            </p>
+        </div>
+    </div>
+</section>
