@@ -1,8 +1,10 @@
 ---
-title: "Home"
+title: ""
 date: 2022-11-29T15:39:11Z
 draft: false
-cover: /image/qgisorg_banner328.png
+cover: /image/3d-grammeni-tourla-karnopi-tiltshift.jpg
+used_by: " Used By "
+
 
 hero:
 - title: QGIS
@@ -11,5 +13,12 @@ hero:
 
 ---
 
+{{< used_by >}}
 
-{{< grid >}}
+{{< image_left >}}
+
+{{< image_right >}}
+
+{{< image_left >}}
+
+{{< lastest-post >}}
